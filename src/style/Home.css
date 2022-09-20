@@ -1,0 +1,146 @@
+#Home {
+  width: 1920px;
+}
+#Home .header {
+  height: 64px;
+  background-color: pink;
+}
+#Home .header .logo {
+  padding: 20px 0 0 40px;
+}
+#Home .header .logo img {
+  width: 224px;
+  height: 24px;
+}
+#Home .header .right {
+  height: 64px;
+  padding-left: 1607px;
+  margin-top: -47px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+#Home .header .right img {
+  width: 30px;
+  height: 30px;
+}
+#Home .header .right .Text {
+  font-size: 20px;
+  font-family: HarmonyOS Sans SC-Regular, HarmonyOS Sans SC;
+  font-weight: 500;
+  color: #0C0C0C;
+  margin: -7px 0 0 25px;
+  cursor: pointer;
+}
+#Home .header .right .login {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+#Home .header .right .login .text {
+  width: 28px;
+  height: 24px;
+  font-size: 14px;
+  font-family: HarmonyOS Sans SC-Regular, HarmonyOS Sans SC;
+  font-weight: 400;
+  color: #0C0C0C;
+  line-height: 24px;
+  margin-left: 24px;
+  cursor: pointer;
+}
+#Home .header .right .login img {
+  margin: -3px 0 0 8px;
+}
+#Home .content {
+  height: 560px;
+  background-image: url(https://newstore.vynior.com/hthm4.png);
+  background-size: 1920px 560px;
+  display: flex;
+}
+#Home .content .carousel {
+  padding: 32px 56px 32px 142px;
+}
+#Home .content .carousel img {
+  width: 1103px;
+  height: 496px;
+}
+#Home .content .form {
+  width: 477px;
+  height: 496px;
+  background-color: #fff;
+  margin: 32px 142px 32px 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#Home .content .form input {
+  outline: none;
+  font-size: 18px;
+}
+#Home .content .form .Title {
+  margin: 48px 170px 0 32px;
+}
+#Home .content .form .Title p {
+  font-size: 25px;
+  font-weight: 600;
+}
+#Home .content .form .loginStyle {
+  margin: 32px 0 0 33px;
+  display: flex;
+}
+#Home .content .form .loginStyle .One img {
+  width: 120px;
+  height: 30px;
+}
+#Home .content .form .loginStyle .Two {
+  margin-left: 32px;
+}
+#Home .content .form .loginStyle .Two img {
+  width: 120px;
+  height: 20px;
+}
+#Home .content .form .email {
+  width: 410px;
+  border-bottom: 2px dashed gray;
+  margin: 33px 0 0 33px;
+  display: flex;
+}
+#Home .content .form .email input {
+  border: 0;
+}
+#Home .content .form .password {
+  width: 410px;
+  border-bottom: 2px dashed gray;
+  display: flex;
+  margin: 27px 0 0 33px;
+}
+#Home .content .form .password input {
+  border: 0;
+}
+#Home .content .form .password .amend {
+  height: 19px;
+  margin: 18px 0 0 70px;
+  cursor: pointer;
+}
+#Home .content .form .password .amend span {
+  width: 85px;
+  font-size: 16px;
+  font-family: HarmonyOS Sans SC-Regular, HarmonyOS Sans SC;
+  font-weight: 400;
+  color: #BEBEC2;
+}
+#Home .content .form .remember {
+  display: flex;
+  align-items: center;
+  margin: 16px 32px 0 309px;
+}
+#Home .content .form .remember span {
+  width: 115px;
+  height: 19px;
+  font-size: 16px;
+  font-family: HarmonyOS Sans SC-Regular, HarmonyOS Sans SC;
+  font-weight: 400;
+  color: #BEBEC2;
+  line-height: 19px;
+  margin-left: 6px;
+}

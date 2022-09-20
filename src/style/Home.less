@@ -1,0 +1,235 @@
+#Home {
+    width: 1920px;
+
+    // 头部
+    .header {
+        height: 64px;
+        background-color: pink;
+
+        .logo {
+            img {
+                width: 224px;
+                height: 24px;
+            }
+
+            // padding-left: 40px;
+            // padding-top: 20px;
+            padding:20px 0 0 40px;
+
+        }
+
+        // 右侧 flex
+        .right {
+
+            height: 64px;
+            padding-left: 1607px;
+            margin-top: -47px;
+
+            display: flex;
+            text-align: center;
+            align-items: center;
+            // line-height: 64px;
+
+
+            img {
+                width: 30px;
+                height: 30px;
+                // padding-top: 17px;
+            }
+
+            .Text {
+
+
+                font-size: 20px;
+                font-family: HarmonyOS Sans SC-Regular, HarmonyOS Sans SC;
+                font-weight: 500;
+                color: #0C0C0C;
+
+                // margin-top: -7px;
+                // margin-left: 25px;
+                margin: -7px 0 0 25px;
+                cursor: pointer;
+            }
+
+            .login {
+                display: flex;
+                text-align: center;
+                justify-content: center;
+
+                .text {
+                    width: 28px;
+                    height: 24px;
+                    font-size: 14px;
+                    font-family: HarmonyOS Sans SC-Regular, HarmonyOS Sans SC;
+                    font-weight: 400;
+                    color: #0C0C0C;
+                    line-height: 24px;
+
+                    margin-left: 24px;
+                    cursor: pointer;
+
+                }
+
+                img {
+                    // margin-top: -3px;
+                    // margin-left: 8px;
+                    margin: -3px 0 0 8px;
+                }
+            }
+
+
+        }
+    }
+
+    // 中间部分
+    .content {
+        height: 560px;
+        background-image: url(https://newstore.vynior.com/hthm4.png);
+        background-size: 1920px 560px;
+
+        display: flex;
+
+        // 轮播图
+        .carousel {
+            // padding-top: 32px;
+            // padding-left: 142px;
+            padding: 32px 56px 32px 142px;
+
+            img {
+                width: 1103px;
+                height: 496px;
+            }
+        }
+
+        // 表单
+        .form {
+            width: 477px;
+            height: 496px;
+            background-color: #fff;
+            margin: 32px 142px 32px 0;
+            border-radius: 10px;
+
+            display: flex;
+            flex-direction: column;
+
+            input {
+                outline: none;
+                font-size: 18px;
+            }
+
+            .Title {
+
+                margin: 48px 170px 0 32px;
+
+                p {
+                    font-size: 25px;
+                    font-weight: 600;
+                }
+            }
+
+            .loginStyle {
+                margin: 32px 0 0 33px;
+                display: flex;
+
+                .One {
+                    img {
+                        width: 120px;
+                        height: 30px;
+                    }
+                }
+
+                .Two {
+                    margin-left: 32px;
+
+                    img {
+                        width: 120px;
+                        height: 20px;
+                    }
+                }
+            }
+
+            .email {
+                width: 410px;
+                border-bottom: 2px dashed gray;
+
+                margin: 33px 0 0 33px;
+                display: flex;
+
+                input {
+                    border: 0;
+
+                }
+            }
+
+            .password {
+                width: 410px;
+                border-bottom: 2px dashed gray;
+
+                display: flex;
+
+                margin: 27px 0 0 33px;
+
+                input {
+                    border: 0;
+                }
+
+                // 忘记密码
+                .amend {
+                    height: 19px;
+                    margin: 18px 0 0 70px;
+
+                    cursor: pointer;
+
+                    span {
+                        width: 85px;
+
+                        font-size: 16px;
+                        font-family: HarmonyOS Sans SC-Regular, HarmonyOS Sans SC;
+                        font-weight: 400;
+                        color: #BEBEC2;
+
+
+                    }
+                }
+            }
+
+            .remember {
+                display: flex;
+                align-items: center;
+                margin: 16px 32px 0 309px;
+
+
+                span {
+                    width: 115px;
+                    height: 19px;
+                    font-size: 16px;
+                    font-family: HarmonyOS Sans SC-Regular, HarmonyOS Sans SC;
+                    font-weight: 400;
+                    color: #BEBEC2;
+                    line-height: 19px;
+                    margin-left: 6px;
+
+                }
+            }
+
+            // 登录
+            .login {
+
+                width: 413px;
+                height: 56px;
+                font-size: 22px;
+                color: #fff;
+                background-color: #1D5CA6;
+                text-align: center;
+                line-height: 56px;
+                margin: 24px 32px 0 32px;
+                cursor: pointer;
+
+            }
+
+        }
+
+
+    }
+
+}
